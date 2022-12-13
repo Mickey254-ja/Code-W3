@@ -52,4 +52,4 @@ function baseMovie(){ fetch(baseUrl)
     document.querySelector("div#ticket-counter").textContent = data[0]["capacity"] - data[0]["tickets_sold"]
      })
      }
-    baseMovie()          
+    baseMovie()         

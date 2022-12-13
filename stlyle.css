@@ -35,3 +35,44 @@
          left:240px;
          color:var(--colorSix);
      }
+     /* section#hero-section */
+section#hero-section{
+    background-color: var(--colorFive);
+}
+img {width:500px;
+    height:500px;
+    border:3px solid black;
+    border-radius:10px;}
+h1{
+text-align: center;
+font-size:50px;
+background-color:var(--colorOne);
+color:white;
+display:inline-block;
+width:100%;
+}
+h2{
+    margin-left:100px;
+    font-size:35px;
+    text-decoration: underline;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+div#movie-display{
+position: relative;
+left:500px;
+top:-570px;
+}
+ul#films li {
+    list-style:none;
+    font-size:25px;
+    margin-left:20px;
+    line-height:35px;
+}
+ul#films li:hover {
+color:var(--colorThree);
+}
+h3#movie-title{
+    font-size:35px;
+    margin-left:0px;
+}

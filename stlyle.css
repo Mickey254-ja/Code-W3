@@ -16,3 +16,22 @@
     p#showtime-text{
         position: relative;
         color:var(--colorSix);
+    }
+    div#showtime{
+        position: relative;
+        top:-40px;
+        left:120px;
+        color: #C42021;
+     }
+     div#runtime{
+        position: relative;
+        top:-123px;
+        left:340px;
+        color: #C42021;
+     }
+     p#runtime-text{
+         position: relative;
+         top:-83px;
+         left:240px;
+         color:var(--colorSix);
+     }

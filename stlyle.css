@@ -76,3 +76,44 @@ h3#movie-title{
     font-size:35px;
     margin-left:0px;
 }
+/* section #movie-tickets */
+section#movie-tickets{
+    position: relative;
+    left:700px;
+    top:-710px;
+}
+.bottom-text{
+    line-height:40px ;
+    font-size:25px;
+}
+button{
+    font-size:25px;
+    height:60px;
+    width:300px;
+    border:0px;
+    background-color:var(--colorSix);
+    color:white;
+    border-radius:10px;
+    position:relative;
+    top:20px;
+    left:-125px;
+}
+div#tickets-remaining{
+    position: relative;
+    top:20px;
+    left:-100px;
+    color:var(--colorOne);
+    font-weight:bold;
+}
+div#ticket-counter{
+    position: relative;
+    top:25px;
+    font-size:40px;
+    background-color:var(--colorSix);
+    width:70px;
+    height:70px;
+    padding-top:15px;
+    padding-left:10px;
+    color:white;
+    border-radius:50%;
+}

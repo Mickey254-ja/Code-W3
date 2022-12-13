@@ -4,5 +4,15 @@
     --colorThree: #6c4242;
     --colorFour: #8EA8C3;
     --colorFive:#F5EFED;
-    --colorSix:#0A369D
-  }
+    --colorSix:#0A369D;
+}
+/* html section */
+*{padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    color:var(--colorTwo);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    p#showtime-text{
+        position: relative;
+        color:var(--colorSix);

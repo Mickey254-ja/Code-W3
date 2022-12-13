@@ -15,4 +15,28 @@ function fetchMovies(){
      let title =
      document.getElementById("movie-title");
         title.textContent =
-    films.title;             
+    films.title;
+     //Adds a movies poster to the DOM when the movie title is clicked
+     let img =
+     document.getElementById("movie-poster");
+        img.src =
+     films.poster;
+     //Adds a movies showtime to the DOM when the movie title is clicked
+     let showTime =
+     document.getElementById("showtime");
+       showTime.textContent =
+     films.showtime;
+     //Adds a movies runtime to the DOM when the movie title is clicked
+     let runTime =
+     document.getElementById("runtime");
+       runTime.textContent =
+     `${films.runtime} Minutes`;
+     //Adds a movies tickets to the DOM when the movie title is clicked
+     let tickets =
+     document.querySelector("div#ticket-counter");
+           tickets.textContent = films["capacity"] - films["tickets_sold"]
+       })
+       document.querySelector("ul#films").appendChild(li)
+   })
+})
+}fetchMovies()            
